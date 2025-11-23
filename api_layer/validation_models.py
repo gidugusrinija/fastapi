@@ -11,6 +11,7 @@ class UserIn(BaseModel):
     name: str
     age: int
     email: str
+    orders: list
 
 
 # Pydantic Model for data retrieved from DB (Response Body)

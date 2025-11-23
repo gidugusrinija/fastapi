@@ -5,4 +5,5 @@ def user_helper(user_data) -> dict:
         "name": user_data["name"],
         "age": user_data["age"],
         "email": user_data["email"],
+        "orders": user_data["orders"],
     }
